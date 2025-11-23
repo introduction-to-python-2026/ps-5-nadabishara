@@ -23,7 +23,7 @@ def split_before_uppercases(formula):
 
     return split_formula
     
-def split_at_digit(formula):
+def split_at_first_digit(formula):
     digit_location = 1
 
     for char in formula[1 : ] :
